@@ -1,0 +1,12 @@
+CC=gcc
+OBJECT=main.o
+CFILES=main.c yetAnother.c
+HFILES=another.h
+
+all: ./OBJECT
+
+build: $(OBJECT)
+	$(CC) $(CFILES) -o (OBJECT)
+
+clean: 
+	rm -f $(OBJECT)
